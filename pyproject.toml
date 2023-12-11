@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "adventofcode2023"
+version = "0.1.0"
+description = ""
+authors = ["Michael Caley <mjcaley@darkarctic.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.9.0"
+
+[tool.poetry.scripts]
+aoc = "aoc.main:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
