@@ -1,9 +1,11 @@
 import typer
-import part1
+import day1
+import day2
 
 
 app = typer.Typer()
-app.add_typer(part1.app, name="part1")
+app.add_typer(day1.app, name="day1")
+app.add_typer(day2.app, name="day2")
 
 
 if __name__ == "__main__":
